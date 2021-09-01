@@ -4,43 +4,38 @@
     box-sizing: border-box;
 }
 
-body{
+body {
+    display: flex;
     width: 100vw;
     height: 100vh;
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
-header{
-
+header {
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main{
+main {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
+    margin-top: 40px;
 }
 
-button{
+button {
     width: 100px;
     height: 40px;
     cursor: pointer;
 }
-img{
-    cursor: pointer;
-}
 
-footer{
-    height: 75px;
+footer {
+    height: 50px;
     justify-content: center;
     align-items: flex-start;
-    font-style: italic;
 }
