@@ -21,7 +21,7 @@ function desligarSemaforo() {
 
 const semaforoDesligado = () => semaforo.src = "img/desligado.png"
 
-const semaforoAutomatico = () => semaforo.src.indexOf("automatico") !== -1
+
 
 function automaticoLigado() {
     if (ligarAutomatico) {
@@ -38,7 +38,7 @@ const ligarAutomatico = () => {
     idVerde = setInterval(ligarVerde, 1500)
     document.getElementById("automatico").textContent = "Automatico"
     } else{
-        pararAutomatico()
+        
         botaoAutomatico.textContent = "Automatico"
     }
 }
